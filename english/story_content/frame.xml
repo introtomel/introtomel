@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111111101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns11111111101" font="Open Sans" controllayout="npnxnanbsnfns11111111101" colorscheme="pxabnsnfns11111111101" string_table="pxabnsnfns11111111101" />
+    <layout name="pxabnsnfns11111111101" font="Open Sans" controllayout="pxabnsnfns11111111101" colorscheme="pxabnsnfns11111111101" string_table="pxabnsnfns11111111101" />
+    <layout name="npxnabnsnfns11111111101" font="Open Sans" controllayout="npxnabnsnfns11111111101" colorscheme="pxabnsnfns11111111101" string_table="pxabnsnfns11111111101" />
+    <layout name="npnxnanbnsnfns11111111101" font="Open Sans" controllayout="npnxnanbnsnfns11111111101" colorscheme="pxabnsnfns11111111101" string_table="pxabnsnfns11111111101" />
+    <layout name="pxabnsnfns11111111100" font="Open Sans" controllayout="pxabnsnfns11111111100" colorscheme="pxabnsnfns11111111101" string_table="pxabnsnfns11111111101" />
+    <layout name="npxnanbsnfns11111111101" font="Open Sans" controllayout="npxnanbsnfns11111111101" colorscheme="pxabnsnfns11111111101" string_table="pxabnsnfns11111111101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Beta-test of Introduction to M&amp;amp;E with USAID Mozambique" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="1000" />
+                  <property name="height" value="389" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/63wrT5339ES.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" value="Horizontal_RGB_294.png" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111111100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npxnanbsnfns11111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111111101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x374D64" alpha="100" stop="0" />
+                <color rgb="0x142D46" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x374D64" alpha="100" stop="0" />
+                <color rgb="0x142D46" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5776A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x496484" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1F3752" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A6C98" alpha="100" stop="0" />
+                <color rgb="0x243C5C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x294260" alpha="100" stop="0" />
+                <color rgb="0x426288" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x436388" alpha="100" stop="0" />
+                <color rgb="0x294260" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5379A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA5DE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F5A76" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F465C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5379A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F5A76" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D4258" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D4258" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5479A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4D6E9A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A3C50" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31475E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5479A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31475E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x283C4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6596C9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x47658B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x99B2CC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D4765" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x476A95" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x14304D" alpha="100" stop="0" />
+                <color rgb="0x4C6B96" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x436388" alpha="100" stop="0" />
+                <color rgb="0x2A4360" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C5979" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x294260" alpha="100" stop="0" />
+                <color rgb="0x426288" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x405E82" alpha="100" stop="0" />
+                <color rgb="0x0E2A45" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7698B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x587BA1" alpha="100" stop="0" />
+                <color rgb="0x496184" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x486B94" alpha="100" stop="0" />
+                <color rgb="0x3A5579" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x527CAD" alpha="100" stop="0" />
+                <color rgb="0x527CAD" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x405E81" alpha="100" stop="0" />
+                <color rgb="0x46678C" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1A324A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x47658B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31475E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A6C98" alpha="100" stop="0" />
+                <color rgb="0x243C5C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x294260" alpha="100" stop="0" />
+                <color rgb="0x426288" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x436388" alpha="100" stop="0" />
+                <color rgb="0x294260" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x253C52" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1F3752" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x496484" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x34495E" alpha="100" stop="0" />
+                <color rgb="0x142B42" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x47617F" alpha="100" stop="0" />
+                <color rgb="0x47617F" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x374D64" alpha="100" stop="0" />
+                <color rgb="0x142D46" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x374D64" alpha="100" stop="0" />
+                <color rgb="0x142D46" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x57799E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x46678E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4D74A3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x314B68" alpha="100" stop="0" />
+                <color rgb="0x365374" alpha="100" stop="128" />
+                <color rgb="0x314B68" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111111101">
+      <string id="three_image_items">items</string>
+      <string id="three_image_viewed">viewed</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_item">item</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Segoe UI">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5WjqtIpGyC7" displaytext="Introductory Slides" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5WjqtIpGyC7.625mV3gfkVb" displaytext="Landing Page" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjqtIpGyC7.6cENLe3MAyW" displaytext="1.2 Welcome Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjqtIpGyC7.64Zy8Atq21k" displaytext="1.3 Navigation" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjqtIpGyC7.5laxtsoABqB" displaytext="1.4 Course Topics" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6DRgnZeVaYR" displaytext="1.5 Key Terms Used by USAID" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6PJvCFRhDA9" displaytext="Using MEL to Manage Activities" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6PJvCFRhDA9.6b81VR2NIw2" displaytext="2.1 Managing Activities with Monitoring, Evaluation &amp;amp; Learning" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6ogZsLmqOCF" displaytext="2.2 Using MEL to Plan and Manage Activities" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.5m0o8IIscz8" displaytext="2.3 USAID Requirements for an Activity MEL Plan" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6gtca3Q1wQ6" displaytext="	2.4 Purpose of the Activity MEL Plan" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6hRJsTa7yGK" displaytext="2.5 Key Components of an Activity MEL Plan" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6Vb2E6yCO7H" displaytext="2.6 Other Key MEL Plan Sections" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.5Y4WkKGEWic" displaytext="2.7 Analyze Data" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6oB2cc2Lpw8" displaytext="2.8 Establish a Baseline" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6eYBFEwBbcq" displaytext="2.9 Collect Data" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.5buByPDfsrq" displaytext="2.10 Ensure Data Quality" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.63eGfXJdSV6" displaytext="2.11 Analyze Data" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6OKdPgviSX3" displaytext="2.12 Disaggregate Data by Sex" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6c0Sowhv5la" displaytext="2.13 Reporting" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.5aBx72NsXEJ" displaytext="2.14 Learning Through Intentional Events" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6RCbKFJX8AN" displaytext="2.15 Learning Through Evaluations" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6EQEkW5R2su" displaytext="2.16 Make Changes to Improve" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6SbnA68ZQ9m" displaytext="2.17 Your Role in Supporting USAID Evaluations" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6ETEAERB2n2" displaytext="2.18 Knowledge Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJvCFRhDA9.6Z3hJ7w7T4J" displaytext="2.19 Knowledge Check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5hkK0wlC0d3" displaytext="Overview of the Program Cycle" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5hkK0wlC0d3.62vy61eDcoT" displaytext="3.1 Overview of the USAID Program Cycle" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5w31ERnDNhK" displaytext="3.2 USAID Program Cycle" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6C8ci0bZmcx" displaytext="3.3 Country Strategic Planning" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6HR6DynXbQM" displaytext="3.4 Country / Regional Strategic Planning" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6Kfjk8M59HR" displaytext="3.5 Linkage Between the Mission CDCS and Implementing Partners’ Work" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.641hduEiUs8" displaytext="3.6 A Results Framework is..." expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6GF9220exJ8" displaytext="3.7 Project &amp;amp; Activity Design &amp;amp; Implementation" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5i9oRByJ67L" displaytext="3.8 Linkages between a PMP PMEL and AMEL Plans" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.67KBRR8K8SC" displaytext="3.9 Monitoring" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5mCeg0kRSwG" displaytext="3.10 Implementing Partner Data is Used to:" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.66dQ2TAruUb" displaytext="3.11 Evaluation" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5dk7AxtTb1s" displaytext="3.12 How Implementing Partners Support Evaluation" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6ERjDhg4mKn" displaytext="3.13 Collaborating, Adapting &amp;amp; Learning" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6KRU07bSLSQ" displaytext="3.14 USAID’s Program Cycle:" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6G0VpBm4W72" displaytext="3.15 Knowledge Check" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5VBqtVglFOB" displaytext="3.15 Knowledge Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6iYrBespvcM" displaytext="Further Resources" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.6iYrBespvcM.66CTUSf0zlw" displaytext="4.1 Key Takeaways" expand="false" type="slide" />
+                <slidelink slideid="_player.6iYrBespvcM.5or11cRmG7R" displaytext="4.2 Further Resources" expand="false" type="slide" />
+                <slidelink slideid="_player.6iYrBespvcM.6D3dWT3PsmT" displaytext="4.3 Thank You" expand="false" type="slide" />
+              </links>
+            </slidelink>
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#FFFFFF'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/CDCS-Mozambique-2020-2025.pdf" image="story_content/6moyaoDrA2c.png" title="USAID Mozambique Country Development Cooperation Strategy" />
+      <resource url="story_content/external_files/USAID ADS 201.pdf" image="story_content/6Hl3WNPPTvk.png" title="USAID Automated Directives System (ADS), Chapter 201" />
+      <resource url="https://usaidlearninglab.org/content/monitoring-toolkit" image="story_content/url.png" title="USAID Monitoring Toolkit" />
+      <resource url="http://usaidlearninglab.org/evaluation" image="story_content/url.png" title="USAID Evaluation Toolkit" />
+      <resource url="https://usaidlearninglab.org/cla-tool-kit-landing" image="story_content/url.png" title="USAID CLA Toolkit" />
+      <resource url="story_content/external_files/_508_RF_Technical_Note_Final_2013_0722.pdf" image="story_content/673UY8wOXoO.png" title="Developing Results Frameworks" />
+      <resource url="story_content/external_files/MOZ_ activity_mel_plan_template_Aug 2021.docx" image="story_content/6Ce7115VvYR.png" title="Activity MEL Plan Template" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5WjqtIpGyC7.625mV3gfkVb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Welcome to this introductory course on implementing monitoring, evaluation and learning activities for the U.S. Agency for International Development in Mozambique. This training should take you 60 minutes or less to complete.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WjqtIpGyC7.6cENLe3MAyW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;You are here because you are interested in working with USAID Mozambique. The purpose of this module is to familiarize you with the terms, concepts, tools, resources, and processes that USAID uses and expects Implementing Partners to understand for monitoring, evaluating, and learning activities. I will be your guide for the next forty minutes as we go through his content together.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Before we dive into the content, let’s first take a moment to review how to navigate this module. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WjqtIpGyC7.64Zy8Atq21k" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Here is what your module looks like. The slide is in the middle. Below it, you have the control panel that includes the play button, the seek bar, the replay button, the volume control, the accessibility settings button, and the previous and forward arrows for navigating through different slides. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;On the top of the module, you will see the title of the course. To the left of that, you will see the Menu button. If you click the menu button, you will see a “Menu” tab, a “notes” tab and a “glossary” tab appear to the left. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;If you click on the “menu” tab, you will see a full slide outline, which will help you easily navigate back and forth to the slide you wish to review. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The “notes” tab provides the full slide script for each slide.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The “glossary” tab offers a list of key terms and their definitions from throughout the course.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The “resources” tab on the top right offers a range of helpful links and reference documents that you can use to continue your journey into the field of monitoring, evaluation, and learning with USAID.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WjqtIpGyC7.5laxtsoABqB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;During this course, we will cover how you, as an Implementing Partner, can use monitoring, evaluation and learning, or MEL, to manage your USAID-funded activities. We will also give an overview of the USAID program cycle, as well as further MEL resources for your continued learning.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.62vy61eDcoT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Now that we&amp;#39;ve discussed Implementing Partners’ MEL responsibilities, let&amp;#39;s take a moment to understand how your work fits into USAID&amp;#39;s broader strategy.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.5w31ERnDNhK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;This slide shows a visual image that represents the USAID program cycle. The program cycle shows the phases that make up the life of USAID programs. We use a circular diagram to represent these phases because they often happen concurrently and cyclically, rather than chronologically. The outer ring shows all of the phases that make up the program cycle. The inner ring illustrates all of the elements of CLA, or collaborating, learning, and adapting that the Mission must take into account. CLA is a set of practices that help us improve activity effectiveness. The center of the diagram displays the programmatic and strategic results for the Mission.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.6C8ci0bZmcx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;USAID Missions develop their five-year strategy, known as a Country Development Cooperation Strategy, or CDCS, during the country or regional strategic planning phase. USAID then develops a Mission-wide performance management plan, or PMP, to assist Mission staff management of the five-year strategy.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.6HR6DynXbQM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;To develop the CDCS, the USAID Mission goes through a strategic planning process that includes consultations with  the host government, private sector and civil society stakeholders. In developing the CDCS, the Mission formulates its development hypothesis  and a corresponding Results Framework. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;This is USAID Mozambique&amp;#39;s results framework. It includes the Goal Statement and three development objectives or “DOs”.   The DOs are the highest level results that the Mission believes it can materially affect over the life of the strategy.  To  accomplish the DOs,  a set of Intermediate Results, or “IRs”, must first be achieved.  In the CDCS ,the RF graphic is accompanied by a narrative description of the development hypothesis and a discussion of any critical assumptions that must hold for the strategy to be successful.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;A copy of the USAID Mozambique CDCS, along with its accompanying results framework, may be found in the References tab at the top right of this module for you to review and download as a reference.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.6Kfjk8M59HR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Implementing Partner activities  directly support the Mission&amp;#39;s CDCS.   Like the Mission, Implementing Partners use Results Frameworks or similar logic models to represent their activity&amp;#39;s theory of change and the results to be achieved. The activity Results Frameworks  are  aligned with the DOs and IRs in the Mission&amp;#39;s CDCS.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Remember that Mission staff use a CDCS Results Framework for Mission and development objective-level strategy planning. Implementing Partners use activity-level results frameworks, or activity RFs, to design what is needed to attain results at the activity level. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Activity RFs measure the work of Implementing Partners at the cooperative agreement, grant, or contract level. Activity goals align with Mission development objectives and specific IRs in the Mission’s CDCS. As you can see, Implementing Partners are integral to achieving the overall development objectives and ultimately, the CDCS.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.641hduEiUs8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;OK, we realize we have shared a LOT of information with you so far. So, let’s stop for a moment and see what you have learned! &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Read the statement to my right, select either “true” or “false”, and click the “submit” button. We covered the statement in the previous several slides. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.6GF9220exJ8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;After the Mission develops the CDCS and PMP, USAID designs activities and Implementing Partners put them into action. Before partners begin implementing their activities, they must develop their Activity MEL Plan.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.5i9oRByJ67L" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Let’s look at the linkages between a PMP, and an activity MEL plan. The logic in a CDCS PMP flows downward from the high level to the activity level, which is why some of the same indicators flow from a PMP down to activity MEL plans. For example, if a PMP focuses on national  economic growth as a development objective, then an indicator that measures increased agricultural yields in certain southern districts in that country could flow down to an activity level MEL plan. The data from that activity MEL plan would then feed into the PMP. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Not all indicators in the PMP will flow to the activity level. Depending on the design of the CDCS, some indicators may remain PMP-only indicators.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.67KBRR8K8SC" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Monitoring and evaluation often happen concurrently, as well as during activity design and implementation. Implementing Partners are responsible for tracking performance indicators for the grants, contracts, and cooperative agreements they are awarded by USAID.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.5mCeg0kRSwG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='1' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;As mentioned previously, Implementing Partners are primarily responsible for monitoring their activities and collecting indicator data as a part of monitoring. The activity data that Implementing Partners collect has many uses for USAID. This data is used is to make the case to fund new programs, make adjustments to existing programs, provide input to the CDCS, provide reporting to USAID in Washington, D.C., and to make budget requests to the U.S. Congress. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 7px'&gt;&lt;textformat leading='1' tabstops='[0, 7, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.66dQ2TAruUb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;In addition to using Implementing Partner monitoring data, USAID funds evaluations to assess performance, make informed decisions, and improve the effectiveness of current and future programming. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.5dk7AxtTb1s" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 3px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;For the most part, either USAID evaluation managers or external evaluators conduct these evaluations. Implementing Partners must cooperate and participate as requested. Evaluators may ask your team to:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px;margin-top: 3px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Provide progress reports, &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px;margin-top: 3px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Make your staff available for interviews or focus groups, &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px;margin-top: 3px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Provide names and contact information for beneficiaries, or &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px;margin-top: 3px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Review and provide feedback on the evaluation report.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.6ERjDhg4mKn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Throughout all of these phases, USAID and Implementing Partners continuously collaborate with each other to learn from and adapt programming as needed to complete the intended activity and yield higher level results. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.6DRgnZeVaYR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;As we move through this module, you may hear terms you are either unfamiliar with, or that are used in different ways. These are key terms used by USAID. On the whiteboard you will see common terms that USAID uses in very specific ways. These words, along with others, are located in the Glossary with complete definitions. The glossary was referenced at the beginning of this module and is at the top left corner of the module. You may want to reference these definitions over the course of this module.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.6KRU07bSLSQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Let’s try one more. Read the statement to my right and select the correct multiple choice response and click the “submit” button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.6G0VpBm4W72" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Let’s take another break from instruction and try another challenge. Below, in the left column you will see some of the phases of the program cycle. Drag each tool or intervention in the  right column and link it to its corresponding program cycle phase, and then click submit.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.63urLVke0gQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Let’s take another break from instruction and try another challenge. Below you will see some terms we have covered in the left column. Match them to their correct program cycle phases, which are in the right column, and then click submit.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.6hqWjC8xicP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Let’s take another break from instruction and try another challenge. Below you will see some terms we have covered in the left column. Match them to their correct program cycle phases, which are in the right column, and then click submit.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;You did not select the correct response. USAID Missions develop their Performance Monitoring Plans during the country and regional planning phase. USAID managers develop Project MEL plans during the project design and implementation phase. Implementing Partners develop the activity MEL plan during the activity design and implementation phase. Lastly, Implementing partners collect data during the monitoring phase. You may want to review the previous slides before exiting this module. For now, let’s keep going. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.5VBqtVglFOB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Here’s one more just for fun! Drag and drop the icons into the grey boxes next to their correct definitions, then click the submit button. Remember, you can help yourself by clicking on the Menu icon on the top left and selecting the glossary tab.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.5WtqgHj10bM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Here’s one more just for fun! Drag and drop the icons into the grey boxes next to their correct definitions, then click the submit button. Remember, you can help yourself by clicking on the Menu icon on the top left and selecting the glossary tab.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5hkK0wlC0d3.5nhbtOECkW7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Here’s one more just for fun! Drag and drop the icons into the grey boxes next to their correct definitions, then click the submit button. Remember, you can help yourself by clicking on the Menu icon on the top left and selecting the glossary tab.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;You did not select the correct response. The CDCS is the country strategic plan that identifies the development objectives the Mission plans to achieve.  A PMP is a tool to plan and manage performance against the objectives in the country strategic plan.  An Activity MEL Plan is a tool to help USAID managers monitor and assess performance of a specific activity.&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;You may want to review the previous slides again before exiting this module. For now, let’s keep going. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6b81VR2NIw2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Let’s take a look at how Implementing Partners can manage activities with monitoring, evaluation, and learning.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6ogZsLmqOCF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;USAID requires its Implementing Partners to use monitoring, evaluation and learning to plan and manage their activities.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;This diagram shows a high-level process for using MEL.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;During the planning phase, the Implementing Partner develops an Activity Monitoring Evaluation and Learning Plan, which shows the intended results, as well as how the organization will monitor performance, learn, and adapt.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Once activity implementation begins, the Implementing Partner monitors performance by collecting and analyzing data and reporting to USAID.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Effective Implementing Partners devote time and resources to learn from their M&amp;amp;E data, their experiences, and collaboration with stakeholders.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;They then use the evidence and learning to consider potential changes and adaptations to improve performance over the life of the activity.  Let’s take a closer look at the various phases. Click on each of the phases to learn more about each.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.5m0o8IIscz8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The first step in the process is to create an activity MEL Plan, or AMELP.  The AMELP is a requirement for all activities, as outlined in USAID’s operational policy, called the Automated Directives System, or ADS.  A link to the ADS can found under the Resources tab.  According to the ADS guidance,&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Each activity must have an activity MEL plan before implementation begins. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Depending on the solicitation or award language, Implementing Partners must submit a proposed Activity MEL Plan to the COR or AOR within 45 - 90 days of an award being approved. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;It is the COR’s or AOR’s responsibility to provide input on required elements, review the plan, request any necessary changes, and approve or concur with the plan.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6gtca3Q1wQ6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The activity MEL plan is a critical piece of an activity’s MEL approach.  It includes the goal, outcomes and outputs, collectively referred to as results, that the activity aims to achieve.  It also includes the methods and approaches for measuring progress against these results, including the specific performance indicators that will be used.  The presence of a detailed plan helps ensure that the Implementing Partner will collect adequate information to manage the activity and provide USAID with the information that it requires.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6hRJsTa7yGK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;There are four main components of an Activity MEL Plan; the Theory of Change or Logic Model, the Monitoring Plan, the Evaluation Plan, and the Learning Plan.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Click on each of the puzzle pieces to learn more about each section. Remember to click on the “Next” button after you have reviewed each puzzle piece.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The Theory of Change section of the Activity MEL Plan describes the intended results of the activity and how they may support USAID’s strategic objectives for Mozambique.  Typically, this section includes a narrative discussion and a logic model that provides a graphic or visual depiction of a theory of change, illustrating the connection between what the activity will do and what it hopes to achieve. USAID does not require any particular model, but most often uses Results Frameworks and LogFrames.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The Results Framework model is very effective in visualizing the linkages and relationships between outputs, outcomes and the activity’s objective. The LogFrame model is less effective at this, but it includes a table format that is effective at aligning performance indicators, data sources and critical assumptions with each result.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The second piece of the Activity MEL Plan puzzle is the Monitoring plan. This includes the performance indicators for the activity as well as other quantitative and qualitative approaches. It identifies all performance indicators that will be used to measure progress and maps them to each result, goal, outcome or output. Although Implementing Partners will develop custom indicators, in some cases USAID will require standard indicators. These standard indicators ensure that USAID can get the data it needs to report against its country level strategy and USAID-wide programs. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Performance indicators are particular characteristics or dimensions used to measure intended changes identified in a Results Framework. They are used to observe progress and to measure actual results compared to expected results. Performance indicators help answer if or how an Implementing Partner is progressing towards its objectives. The Monitoring plan describes in detail how, by whom, from what sources, and with what frequency data will be collected. The Monitoring plan also includes the Indicator Summary Table and Indicator Reference Sheets, which are usually found in the Annexes. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The third major section of the Activity MEL Plan is the Evaluation Plan.  This section describes planned evaluations, which can be internal evaluations by the Implementing Partner of its activity conducted with Implementing Partner staff or a contractor, or more typically, external evaluations of the activity contracted and commissioned by USAID.  For external evaluations, the Implementing Partner will support evaluations by reviewing and commenting on the evaluation design, providing reports and documentation to the evaluation team, and helping to identify key stakeholders for interviews.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;In the past, Implementing Partners focused primarily on collecting and reporting M&amp;amp;E data without focusing time and resources on actively learning.  For this reason, a learning section is now a standard section in Activity MEL Plans.  The Learning Plan lays out any internal events the Implementing Partner will take to reflect on what they are learning from the data, as well as any learning events they organize with stakeholders. Examples of events include Pause and Reflect sessions or learning workshops or conferences. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The learning plan may include:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Learning questions based on the activity’s logic model or gaps in the technical knowledge base;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;How knowledge will be generated, captured, and shared;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Specific actions the team will take to learn and reflect;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Who will take part in learning activities; &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;How the team will apply learning to manage adaptively.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Strategic collaboration activities to support learning and adapting with and for key stakeholders.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6Vb2E6yCO7H" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The activity MEL plan template has other key sections. Here are some of these sections. Click on each to learn more about it. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;To advance to the next slide, click on the next button at the bottom right hand corner of your player.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6eYBFEwBbcq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Once the planning phase is complete and implementation of interventions begins, Implementing Partners can begin to monitor performance. This involves tracking whether services and resources are delivered as well as whether outcomes are being achieved.  A range of methods may be used to collect data, such as these shown on the projector screen.  The specific methods for collecting performance data can be found in the Performance Indicator Reference Sheets in the Annex of the activity MEL plan.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.5buByPDfsrq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Implementing Partners collect direct, or primary data, as well as data from other sources, or secondary data.  Ensuring the data is collected accurately, consistently, on time and is properly managed is extremely important so that USAID and the Implementing Partner can have confidence in the data collected and use it for managing and reporting.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Here are a few brief tips for ensuring quality:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;First, make sure that staff members who are collecting data understand their roles and responsibilities, including when and how to collect and compile the data and use data collection forms. Ensuring data is collected the same way by different team members and partners is critical. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Ensure any forms (such as intake forms, training records, stakeholder surveys, etc.) will collect the data you need, including disaggregated data on gender, where appropriate.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;If your MEL Plan calls for collection of data from a third party like the World Bank, a government ministry or private company, be sure you can get the data when you need it and that it will be adequate for your needs. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Ensure you have clear processes and procedures for collecting data from different interventions and record it in a central repository, like a database and ensuring its safety. Keep it in a format that will be easy to manipulate for analysis and reporting.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6oB2cc2Lpw8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The first set of data collected and reported is baseline data.  A baseline is a starting point used for comparisons in the future. Baseline values for each performance indicator must be established before implementation begins.  These baselines will help the Implementing Partner and USAID assess progress over the life of the activity. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;If it is not possible to collect baseline data prior to implementation, include a rationale and a plan to mitigate this issue in the MEL plan.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.5Y4WkKGEWic" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;As part of the monitoring process, data should be compiled and analyzed to understand whether progress is being made.  One way to do this is to compare actual performance against expectations for individual results using indicator targets identified in the MEL Plan.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.63eGfXJdSV6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Another form of analysis might look at performance within the context of the theory of change.  This type of comprehensive analysis is common in a semi-annual or annual performance review.  This may be done internally or with your COR and partners. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6OKdPgviSX3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;The activity team should also analyze the impact of gender to understand whether services are being delivered to women and men, or girls or boys, equitably and whether results are being achieved equally for men and women.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6c0Sowhv5la" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Once a quarter and annually, Implementing Partners are required to report on their progress on their activity using the data they have collected.  Quarterly progress reports are a requirement for Implementing Partners and are included in the final grant, cooperative agreement, or contract. These quarterly progress reports must be submitted to the COR or AOR within 30 days after the quarter ends. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Click on the numbers to see some common elements for progress reports to USAID Mozambique. Once you have reviewed the elements, click on the next button at the bottom right corner of your player to advance to the next slide.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.5aBx72NsXEJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Learning events, both virtual and in person, can help Implementing Partners and USAID understand what is happening within an activity. Some examples of learning events include after-action reviews, share fairs, chalk talks, or communities of practice. This slide shows some of the common questions discussed at these events to understand whether changes and improvements should be made. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6RCbKFJX8AN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;In addition to learning from monitoring data, implementing partners can learn from evaluations. USAID commissions evaluations of some of its activities to complement evidence from performance monitoring. Evaluations provide valuable opportunities to understand what elements of an activity have been successful, which have not been successful, and why this may be.  Evaluations draw from a broad range of stakeholders’ perspectives, and analysis of data to document activity performance against expected results. Implementing Partners should use the findings, conclusions, and recommendations to learn, adapt, and improve interventions to achieve better results. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6SbnA68ZQ9m" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;These evaluations help both Implementing Partners and USAID learn from activities so they can adapt their interventions to increase their impact. As an Implementing Partner, you have a critical role in helping USAID with external evaluations. Examples of the ways in which you can expect to help evaluators include:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Providing progress reports&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Making your staff available for interviews or focus groups&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Providing names and contact information for beneficiaries, &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#ffffff'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Reviewing and providing feedback on the evaluation report.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6EQEkW5R2su" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="40">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Based on the analysis, learning and discussions with the COR, the Implementing Partner should adapt its implementation to improve performance.   This could include putting more resources towards highly successful interventions or revising or discontinuing interventions that are not working.  Based on feedback from stakeholders, the activity may even offer new interventions and approaches.  In some cases, Implementing Partners may need to find new partners that can help implement the activity.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;It is also possible that an Implementing Partner may revise its indicators if they do not provide the right data to monitor progress or even revisit the theory of change. This could include revising results or the logic.  Both of these would require approval from the USAID COR.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6ETEAERB2n2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="41">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;We realize this is a lot to take in. Let’s take a break from instruction for a moment. While we wait, here is a question for you to consider. Select what you think is the right answer and click the “Submit” button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6PJvCFRhDA9.6Z3hJ7w7T4J" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="42">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Let’s try another! Read the following statement and then select either “True” or “False” and click the “Submit” button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6iYrBespvcM.66CTUSf0zlw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="43">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='19pt' style="font-size:19pt;" color='#ffffff'&gt;What are the key takeaways from this module? The first takeaway is that the USAID Program Cycle describes the process by which the agency plans, monitors, and manages its strategy and its activities.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='19pt' style="font-size:19pt;" color='#ffffff'&gt;Secondly, Implementing Partners help USAID achieve its development objectives in Mozambique. Remember, because of links between USAID’s strategy and Implementing Partner activities, when Implementing Partners succeed in achieving their objectives, USAID is better able to achieve its development objectives.​&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='19pt' style="font-size:19pt;" color='#ffffff'&gt;Third, USAID’s Country Development Cooperation Strategy and a Mission Performance Management Plan are used to plan and manage the Mission’s work over a five-year period. In part, the Mission relies on M&amp;amp;E data collected by Implementing Partners to assess its progress and make programming decisions, so it is critical for implementers to collect and report high quality data in a timely manner.​&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='19pt' style="font-size:19pt;" color='#ffffff'&gt;Fourth, Implementing Partners are expected to use M&amp;amp;E to plan, manage and report. Specifically, Implementing Partners should develop an activity MEL plan that includes a logical model and performance indicators, collect and report on performance, use evidence to make informed decisions, learn, and adapt. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6iYrBespvcM.5or11cRmG7R" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="44">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;We hope you have found the information in this module helpful as you transition into your roles as USAID Mozambique Implementing Partners. The resources on the whiteboard are available for download and on external websites in the Resources tab at the top right of this module. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6iYrBespvcM.6D3dWT3PsmT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="45">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='16.5pt' style="font-size:16.5pt;" color='#ffffff'&gt;Thank you for your time in completing this module. We hope this has been a helpful overview of USAID’s processes and terminology as it relates to monitoring, evaluation, learning, and the project cycle. For more information, please send an email to the address on the slide. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Activities">Refers to a contract, grant, or cooperative agreement with an Implementing Partner. During the implementation of activities, USAID provides technical direction for and administrative oversight. </term>
+      <term title="Activity MEL Plan">An activity monitoring, evaluation and learning, or MEL plan helps implementing partners to track and monitor performance data for a specific activity. </term>
+      <term title="Agreement Officer">Has the authority to sign, negotiate, end, and administer grants and cooperative agreements on behalf of the U.S. Government. </term>
+      <term title="Agreement Officer's Representative">Ensures day-to-day technical and administrative oversight of an activity governed by a cooperative agreement or grant. Duties typically include ensuring inventory control, assuring the quality of data, and pproving implementation plans or work plans. To the extent feasible and appropriate, they should facilitate joint work planning, meetings with partners, working groups, and/or other collaborative approaches to avoid duplication of effort, generate synergies, and facilitate an environment that si open to learning and adapting.</term>
+      <term title="Automated Directives System - ADS">USAID’s operational policy, called the Automated Directives System, or ADS for short, contains the organization and functions of USAID, along with the policies and procedures that guide the Agency's programs and operations.  It consists of over 200 chapters organized in six functional series: Agency Organization and Legal Affairs, Programming, Acquisition and Assistance, Human Resources, Management Services, and Budget and Finance. Section 200 on Programming focuses on how the agency should design, manage, monitor and evaluate its programs.</term>
+      <term title="Contracting Officer">Has the authority to sign, negotiate, end, and administer contracts on behalf of the U.S. Government.</term>
+      <term title="Contracting Officer's Representative">Ensures day-to-day technical and administrative oversight of an activity governed by a contract. Duties typically include ensuring inventory control, assuring the quality of data, and pproving implementation plans or work plans. To the extent feasible and appropriate, they should facilitate joint work planning, meetings with partners, working groups, and/or other collaborative approaches to avoid duplication of effort, generate synergies, and facilitate an environment that si open to learning and adapting.</term>
+      <term title="Country Development Cooperation Strategy - CDCS">Typically a 5-year strategy that USAID uses to define goals, development objectives and maximize the impact of development cooperation. It focuses on USAID-implemented resources while incorporating input the host-country government and other partners.</term>
+      <term title="Evaluation">The systematic collection and analysis of information about the characteristics and outcomes of programs and projects as a basis for judgments, to improve effectiveness, and/or inform decisions about current and future programming. </term>
+      <term title="Implementing Partner">An organization who has been awarded a grant, cooperative agreement, or contract by USAID to implement a specific activity.</term>
+      <term title="Intermediate Result">An intermediate result (IR) contributes toward the achievement of a larger activity goal in a results framework.</term>
+      <term title="Logical Framework (LogFrame)">A project design tool with a rigorous process that, if used as intended, will impose a logical discipline on project design. If the process is used with integrity the result will be a high quality project design. </term>
+      <term title="MEL Plan">A monitoring, evaluation and learning, or MEL plan helps USAID managers to track and monitor performance data across all technical sectors, as well as for integrated development objectives. </term>
+      <term title="Monitoring">The ongoing and systematic tracking of information relevant to USAID’s strategies, projects, and activities.</term>
+      <term title="Performance Indicators">A particular characteristic or dimension used to measure intended changes identified in a Results Framework. Performance indicators are used to observe progress and to measure actual results compared to expected results. Performance indicators help answer how or if a USAID Mission, or an Implementing Partner, is progressing towards its objectives. </term>
+      <term title="Performance Management Plan (PMP)">A tool to plan and manage the process of monitoring, evaluating and analyzing progress toward identified results in a CDCS and project LogFrame to inform decision-making, resource allocation, learning, and adapting for projects and strategies.</term>
+      <term title="Project MEL Plan">A project monitoring, evaluation and learning, or MEL plan helps USAID managers to track and monitor performance data across a specific project. </term>
+      <term title="Theory of Change">A theory developed to address how, why, and under what conditions the Mission (for the CDCS) or the Implementing Partner (for the Activity MEL Plan) believes that it will be successful in advancing its Mission or Activity objectives. </term>
+    </terms>
+  </glossary_data>
+</bwFrame>
