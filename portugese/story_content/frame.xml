@@ -14,7 +14,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Introdu&amp;#231;&amp;#227;o &amp;#224; Monitoria, Avalia&amp;#231;&amp;#227;o &amp;amp; Aprendizagem com a USAID Mo&amp;#231;ambique" />
+              <option name="title_text" value="Final_Introdu&amp;#231;&amp;#227;o &amp;#224; Monitoria, Avalia&amp;#231;&amp;#227;o &amp;amp; Aprendizagem com a USAID Mo&amp;#231;ambique" />
             </options>
           </option>
           <option name="logo_enabled" value="true">
@@ -25,7 +25,7 @@
                   <property name="height" value="389" />
                 </properties>
               </option>
-              <option name="html5_logo_url" value="mobile/5vqDb2MvGqY.png" />
+              <option name="html5_logo_url" value="mobile/6rM6mvrxtFE.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -52,7 +52,7 @@
               <option name="height" value="135" />
             </options>
           </option>
-          <option name="logoAltText" />
+          <option name="logoAltText" value="Horizontal_RGB_294.png" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
@@ -1304,7 +1304,7 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5WjqtIpGyC7" displaytext="Slides Introdutórios" expand="true" type="slide">
+        <slidelink slideid="_player.5WjqtIpGyC7" displaytext="Slides Introdutórios" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.5WjqtIpGyC7.625mV3gfkVb" displaytext="Capa" expand="false" type="slide" />
             <slidelink slideid="_player.5WjqtIpGyC7.6cENLe3MAyW" displaytext="Slide de boas-vindas" expand="false" type="slide" />
@@ -1312,28 +1312,9 @@
             <slidelink slideid="_player.5WjqtIpGyC7.5laxtsoABqB" displaytext="Tópicos do Curso" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5hkK0wlC0d3" displaytext="Visão Geral do Ciclo de Programa" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.5hkK0wlC0d3.62vy61eDcoT" displaytext="Visão Geral do Ciclo de Programa da USAID" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.5w31ERnDNhK" displaytext="Ciclo de Programa da USAID" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.6C8ci0bZmcx" displaytext="Plano Estratégico do País" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.5yGtV6LKGBK" displaytext="Planificaçᾶo Estratégica para o País/ Região " expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.6Kfjk8M59HR" displaytext="Ligação entre a CDCS da Missão e o Trabalho dos Parceiros de Implementação" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.641hduEiUs8" displaytext="Avaliação do Conhecimento Adquirido" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.6GF9220exJ8" displaytext="Desenho do Projecto, Actividade &amp;amp; Implementação" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.5i9oRByJ67L" displaytext="Ligações entre PMP, PMEL e AMEL" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.67KBRR8K8SC" displaytext="Monitoria" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.5mCeg0kRSwG" displaytext="Os Dados dos Parceiros de Implementação são usados para:" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.66dQ2TAruUb" displaytext="Avaliação" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.6ERjDhg4mKn" displaytext="Colaboração, Adaptação &amp;amp; Aprendizagem" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.5p0N2qPZQZf" displaytext="Resumo: Ciclo de Programa da USAID" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.6DRgnZeVaYR" displaytext="Termos-chave usados pela USAID" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.6KRU07bSLSQ" displaytext="Avaliação do Conhecimento Adquirido" expand="false" type="slide" />
-            <slidelink slideid="_player.5hkK0wlC0d3.63urLVke0gQ" displaytext="Avaliação do Conhecimento Adquirido" expand="false" type="slide" />
-          </links>
-        </slidelink>
         <slidelink slideid="_player.6PJvCFRhDA9" displaytext="Usoda  MEL para a Gestão de Actividades" expand="true" type="slide">
           <links>
+            <slidelink slideid="_player.5hkK0wlC0d3.6DRgnZeVaYR" displaytext="Termos-chave usados pela USAID" expand="false" type="slide" />
             <slidelink slideid="_player.6PJvCFRhDA9.6b81VR2NIw2" displaytext="Gestão de  Actividades através da Monitoria, Avaliação &amp;amp; Aprendizagem" expand="false" type="slide" />
             <slidelink slideid="_player.6PJvCFRhDA9.6ogZsLmqOCF" displaytext="Planificar e Gerir Actividades através da MEL" expand="false" type="slide" />
             <slidelink slideid="_player.6PJvCFRhDA9.5m0o8IIscz8" displaytext="Requisitos da USAID num Plano MEL da Actividade" expand="false" type="slide" />
@@ -1353,7 +1334,26 @@
             <slidelink slideid="_player.6PJvCFRhDA9.6ETEAERB2n2" displaytext="Avaliação do Conhecimento Adquirido" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6iYrBespvcM" displaytext="Recursos Adicionais" expand="true" type="slide">
+        <slidelink slideid="_player.5hkK0wlC0d3" displaytext="Visão Geral do Ciclo de Programa" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5hkK0wlC0d3.62vy61eDcoT" displaytext="Visão Geral do Ciclo de Programa da USAID" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5w31ERnDNhK" displaytext="Ciclo de Programa da USAID" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6C8ci0bZmcx" displaytext="Plano Estratégico do País" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5yGtV6LKGBK" displaytext="Planificaçᾶo Estratégica para o País/ Região " expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6Kfjk8M59HR" displaytext="Ligação entre a CDCS da Missão e o Trabalho dos Parceiros de Implementação" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.641hduEiUs8" displaytext="Avaliação do Conhecimento Adquirido" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6KRU07bSLSQ" displaytext="Avaliação do Conhecimento Adquirido" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6GF9220exJ8" displaytext="Desenho do Projecto, Actividade &amp;amp; Implementação" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5i9oRByJ67L" displaytext="Ligações entre PMP, PMEL e AMEL" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.67KBRR8K8SC" displaytext="Monitoria" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5mCeg0kRSwG" displaytext="Os Dados dos Parceiros de Implementação são usados para:" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.66dQ2TAruUb" displaytext="Avaliação" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.6ERjDhg4mKn" displaytext="Colaboração, Adaptação &amp;amp; Aprendizagem" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.5p0N2qPZQZf" displaytext="Resumo: Ciclo de Programa da USAID" expand="false" type="slide" />
+            <slidelink slideid="_player.5hkK0wlC0d3.63urLVke0gQ" displaytext="Avaliação do Conhecimento Adquirido" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6iYrBespvcM" displaytext="Recursos Adicionais" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6iYrBespvcM.66CTUSf0zlw" displaytext="Principais lições" expand="false" type="slide" />
             <slidelink slideid="_player.6iYrBespvcM.5or11cRmG7R" displaytext="Recursos Adicionais" expand="false" type="slide" />
@@ -1365,13 +1365,13 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#FFFFFF'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/Public CDCS-Mozambique-December-2025 PORT Version GM.pdf" image="story_content/6Ya68e0VjiA.png" title="Estrat&amp;#233;gia de Coopera&amp;#231;&amp;#227;o para o Desenvolvimento para Mo&amp;#231;ambique da USAID" />
-      <resource url="story_content/external_files/USAID ADS 201.pdf" image="story_content/6TUcX5hmk4Q.png" title="Sistema Automatizado de Directivas da USAID (ADS), Cap&amp;#237;tulo 201" />
+      <resource url="story_content/external_files/Public CDCS-Mozambique-December-2025 PORT Version GM.pdf" image="story_content/6PQ5Aei5W94.png" title="Estrat&amp;#233;gia de Coopera&amp;#231;&amp;#227;o para o Desenvolvimento para Mo&amp;#231;ambique da USAID" />
+      <resource url="story_content/external_files/USAID ADS 201.pdf" image="story_content/6NOx2JuqL0b.png" title="Sistema Automatizado de Directivas da USAID (ADS), Cap&amp;#237;tulo 201" />
       <resource url="https://usaidlearninglab.org/content/monitoring-toolkit" image="story_content/url.png" title="Toolkit de Monitoria da USAID" />
       <resource url="http://usaidlearninglab.org/evaluation" image="story_content/url.png" title="Toolkit de Avalia&amp;#231;&amp;#227;o da USAID " />
       <resource url="https://usaidlearninglab.org/cla-tool-kit-landing" image="story_content/url.png" title="Toolkit de CLA da USAID" />
-      <resource url="story_content/external_files/_508_RF_Technical_Note_Final_2013_0722.pdf" image="story_content/6SpZo5LKO6g.png" title="Quadro de Resultados em Desenvolvimento" />
-      <resource url="story_content/external_files/MOZ_ activity_mel_plan_template_Aug 2021.docx" image="story_content/6MC12oGZwJ3.png" title="Modelo de Plano da MEL da Actividade" />
+      <resource url="story_content/external_files/_508_RF_Technical_Note_Final_2013_0722.pdf" image="story_content/6gCJ0swmhXA.png" title="Quadro de Resultados em Desenvolvimento" />
+      <resource url="story_content/external_files/MOZ_ activity_mel_plan_template_Aug 2021.docx" image="story_content/5Uw06k2I7Kb.png" title="Modelo de Plano da MEL da Actividade" />
     </resources>
   </resource_data>
   <transcript_data>
